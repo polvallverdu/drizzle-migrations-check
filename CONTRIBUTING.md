@@ -55,8 +55,8 @@ renaming inputs, changing defaults, or new failure conditions that aren't clearl
 3. Keep **Publish this Action to the GitHub Marketplace** ticked, and publish.
 4. The `Release` workflow then moves the major tag (`v1`) to the new release automatically.
 
-Version tags (`v*`) are protected by a ruleset: only maintainers and the release workflow can
-create, move or delete them.
+Exact version tags (`vX.Y.Z`) can't be moved or deleted (a tag ruleset plus immutable releases),
+so `@v1.0.0` always points to the same code. Only the major tag (`v1`) moves.
 
 ## Code of conduct
 
