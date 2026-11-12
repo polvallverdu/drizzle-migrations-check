@@ -13,7 +13,7 @@ body:
     id: workflow
     attributes:
       label: Workflow step
-      description: The `uses: polvallverdu/drizzle-migrations-check` step and its inputs.
+      description: "The `uses: polvallverdu/drizzle-migrations-check` step and its inputs."
       render: yaml
     validations:
       required: true
